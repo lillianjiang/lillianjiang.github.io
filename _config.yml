@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Lillian Jiang"
   avatar           : "IMG_7137.JPG"
-  bio              : "Second Year Graduate Student"
+  bio              : "Third Year Graduate Student"
   location         : "Austin, TX"
-  employer         : "Department of Astronomy, The University of Texas at Austin"
+  employer         : "The University of Texas at Austin"
   pubmed           : 
   googlescholar    : 
   email            : "ljiang@utexas.edu"
@@ -227,23 +227,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # # _portfolio
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
