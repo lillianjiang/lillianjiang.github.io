@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Lillian Jiang"
-  avatar           : "IMG_7137.JPG"
+  avatar           : "IMG_0955.JPG"
   bio              : "Third Year Graduate Student"
   location         : "Austin, TX"
   employer         : "The University of Texas at Austin"
@@ -175,18 +175,18 @@ kramdown:
 
 # Collections
 collections:
-  # teaching:
-  #   output: true
-  #   permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  # portfolio:
-  #   output: true
-  #   permalink: /:collection/:path/
-  # talks:
-  #   output: true
-  #   permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
