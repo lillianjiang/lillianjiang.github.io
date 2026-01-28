@@ -518,7 +518,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%79%6A%69%61%6E%67@%75%63%73%62.%65%64%75", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -526,6 +526,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-4006-102X", "_blank");
         },
       },{
         id: 'social-rss',
