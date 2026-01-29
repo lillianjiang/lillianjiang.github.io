@@ -6,7 +6,7 @@ subtitle: Fourth-year PhD student in Physics at <a href='https://www.physics.ucs
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_6565.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Physics</p>
