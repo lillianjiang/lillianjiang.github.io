@@ -95,6 +95,27 @@ div.container-pdf {
 }
 
 /*****************************
+ * PDF Embed styles
+ *****************************/
+
+div.pdf-embed-container {
+  width: 100%;
+  margin: 1rem 0;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div.pdf-embed-container iframe,
+div.pdf-embed-container embed {
+  display: block;
+  width: 100%;
+  min-height: 600px;
+  border: none;
+}
+
+/*****************************
  * CV LIST_GROUPS styles
  *****************************/
 
