@@ -110,7 +110,9 @@ div.pdf-embed-container {
 div.pdf-embed-container iframe,
 div.pdf-embed-container embed {
   display: block;
+  width: 100%;
   min-height: 600px;
+  border: none;
 }
 
 /*****************************

@@ -66,10 +66,10 @@ layout: default
           <div class="pdf-embed-container">
             <iframe
               src="{% if page.cv_pdf contains '://' %}{{ page.cv_pdf }}{% else %}{{ page.cv_pdf | relative_url }}{% endif %}"
-              type="application/pdf"
               width="100%"
               height="1000px"
-              style="border: none;"
+              title="CV PDF Document"
+              sandbox="allow-scripts allow-same-origin"
             >
               <p>Your browser does not support PDFs. 
                 <a href="{% if page.cv_pdf contains '://' %}{{ page.cv_pdf }}{% else %}{{ page.cv_pdf | relative_url }}{% endif %}">Download the PDF</a>.
