@@ -6,6 +6,7 @@ layout: default
   - If page.cv_format is set, it determines which format to render:
     - 'rendercv': Load and render only RenderCV data (site.data.cv.cv)
     - 'jsonresume': Load and render only JSONResume data (site.data.resume)
+    - 'pdf': Display the PDF file directly (requires page.cv_pdf to be set)
   - If page.cv_format is not set, the legacy behavior applies:
     - RenderCV data is in site.data.cv.cv
     - JSONResume data is in site.data.resume
@@ -42,11 +43,14 @@ layout: default
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}
+      {% assign render_pdf = false %}
 
       {% if page.cv_format == 'rendercv' %}
         {% assign render_rendercv = true %}
       {% elsif page.cv_format == 'jsonresume' %}
         {% assign render_jsonresume = true %}
+      {% elsif page.cv_format == 'pdf' %}
+        {% assign render_pdf = true %}
       {% else %}
         {% comment %} Legacy behavior: RenderCV takes priority if both exist {% endcomment %}
         {% if site.data.cv and site.data.cv.cv %}
@@ -56,7 +60,22 @@ layout: default
         {% endif %}
       {% endif %}
 
-      {% if render_rendercv and site.data.cv and site.data.cv.cv %}
+      {% if render_pdf %}
+        {% comment %} PDF format - Embed the PDF directly {% endcomment %}
+        {% if page.cv_pdf %}
+          <div class="pdf-embed-container">
+            <embed
+              src="{% if page.cv_pdf contains '://' %}{{ page.cv_pdf }}{% else %}{{ page.cv_pdf | relative_url }}{% endif %}"
+              type="application/pdf"
+              width="100%"
+              height="1000px"
+            />
+          </div>
+        {% else %}
+          <p>No CV PDF specified. Please set the 'cv_pdf' parameter in the page front matter.</p>
+        {% endif %}
+
+      {% elsif render_rendercv and site.data.cv and site.data.cv.cv %}
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
