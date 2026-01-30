@@ -2,22 +2,20 @@
 
 ## Quick Steps
 
-1. **Replace the example PDF**: Replace `example_pdf.pdf` in this directory with your actual CV PDF file
-   - Keep the filename as `example_pdf.pdf`, or
-   - Update the `cv_pdf` path in `_data/socials.yml` to point to your new filename
+**Replace the example PDF** with your actual CV using one of these options:
 
-2. **Option 1: Keep the same filename (Recommended)**
-   ```bash
-   # Simply replace the file
-   cp /path/to/your/cv.pdf assets/pdf/example_pdf.pdf
+### Option 1: Keep the same filename (Recommended)
+```bash
+# Simply replace the file
+cp /path/to/your/cv.pdf assets/pdf/example_pdf.pdf
+```
+
+### Option 2: Use a custom filename
+1. Place your CV PDF in this directory (e.g., `assets/pdf/lillian_jiang_cv.pdf`)
+2. Update `_data/socials.yml`:
+   ```yaml
+   cv_pdf: /assets/pdf/lillian_jiang_cv.pdf
    ```
-
-3. **Option 2: Use a custom filename**
-   - Place your CV PDF in this directory (e.g., `assets/pdf/lillian_jiang_cv.pdf`)
-   - Update `_data/socials.yml`:
-     ```yaml
-     cv_pdf: /assets/pdf/lillian_jiang_cv.pdf
-     ```
 
 ## Current Configuration
 
