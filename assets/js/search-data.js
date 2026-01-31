@@ -466,18 +466,11 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-ads',
+        title: 'Ads',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv_20251030.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6C%79%6A%69%61%6E%67@%75%63%73%62.%65%64%75", "_blank");
+          window.open("https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0003-4006-102X&sort=date%20desc%2C%20bibcode%20desc", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -492,6 +485,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=rX8Jvi8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/lillianjiang", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6C%79%6A%69%61%6E%67@%75%63%73%62.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/cv_20260130.pdf", "_blank");
         },
       },{
       id: 'light-theme',
