@@ -33,3 +33,70 @@ footer.sticky-bottom {
     text-align: center;
   }
 }
+
+// Footer social icons
+.footer-social-icons {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+
+  a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: var(--global-footer-text-color);
+    transition: all 0.2s ease-in-out;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+      vertical-align: middle;
+    }
+
+    svg {
+      width: 1.8rem;
+      height: 1.8rem;
+      vertical-align: middle;
+
+      image {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+    }
+
+    i::before {
+      transition: color 0.2s ease-in-out;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Responsive adjustments for footer social icons
+@media (max-width: 576px) {
+  .footer-social-icons {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+
+    a {
+      margin: 0 0.3rem;
+
+      img {
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        image {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}

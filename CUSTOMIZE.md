@@ -638,7 +638,84 @@ max_width: 930px
 
 ## Adding social media information
 
-You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
+You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default.
+
+### Display Options
+
+You can customize where your social media links appear:
+
+- **In the navbar** (on homepage only): Set `enable_navbar_social: true` in [\_config.yml](_config.yml)
+- **In the footer** (on all pages): Set `enable_footer_social: true` in [\_config.yml](_config.yml)
+- **In search results**: Controlled by `socials_in_search: true/false` in [\_config.yml](_config.yml)
+
+### Supported Social Platforms
+
+The theme uses the [jekyll-socials](https://george-gca.github.io/jekyll-socials/) plugin, which includes built-in support for 53+ social media and academic platforms including:
+
+- **Academic**: Google Scholar, ORCID, arXiv, ResearchGate, IEEE, ACM, Scopus, and more
+- **Social Media**: Twitter/X, Mastodon, LinkedIn, Instagram, Facebook, Bluesky, and more
+- **Professional**: GitHub, GitLab, Stack Overflow, Kaggle, and more
+- **Contact**: Email, CV PDF, RSS, WeChat, WhatsApp, and more
+
+For a complete list of supported platforms, see the [jekyll-socials documentation](https://george-gca.github.io/jekyll-socials/).
+
+### Basic Configuration
+
+Simply add the platform name and your username/ID to `_data/socials.yml`:
+
+```yaml
+# Built-in socials (automatically handled by jekyll-socials plugin)
+email: jane@university.edu
+scholar_userid: your_scholar_id
+github_username: your_username
+linkedin_username: your_username
+orcid_id: 0000-0000-0000-0000
+```
+
+### Custom Icons and Logos
+
+You can customize the appearance of any social link in two ways:
+
+#### 1. Override Built-in Icons
+
+Override the default icon for any built-in social platform using icon classes from FontAwesome, Academicons, or Scholar Icons:
+
+```yaml
+linkedin_username:
+  value: your_username
+  logo: fa-brands fa-linkedin # custom icon class
+```
+
+#### 2. Add Custom Socials
+
+For platforms not in the built-in list, create custom entries with your own logos and URLs:
+
+```yaml
+custom_social:
+  logo: fa-brands fa-custom-icon # icon class from FontAwesome, Academicons, etc.
+  title: My Custom Social
+  url: https://example.com
+```
+
+You can also use image files instead of icon classes:
+
+```yaml
+custom_platform:
+  logo: /assets/img/custom-logo.png # path to custom image
+  title: My Custom Platform
+  url: https://example.com
+```
+
+### Footer Social Icons Styling
+
+When `enable_footer_social: true`, social icons appear in the footer with:
+
+- **Hover effects**: Icons change color and lift slightly on hover
+- **Responsive sizing**: Icons automatically adjust size on smaller screens
+- **Theme-aware colors**: Icons automatically adapt to light and dark modes
+- **Support for both icon fonts and custom images**: Use FontAwesome/Academicons icons or your own image files
+
+The footer social icons are styled to be less prominent than those on the About page, providing a subtle way to include contact information on every page.
 
 ## Adding a newsletter
 

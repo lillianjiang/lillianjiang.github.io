@@ -1,4 +1,11 @@
 {% capture footer_contents %}
+  {% if site.enable_footer_social %}
+    <!-- Social icons in footer -->
+    <div class="footer-social-icons">
+      {% social_links %}
+    </div>
+  {% endif %}
+  
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.first_name }}
   {{ site.middle_name }}
