@@ -59,19 +59,16 @@ I was born and raised in **Shanghai, China**. Outside of research, I enjoy spend
   
   <div class="col-md-6">
     <h2>Education</h2>
-    <ul class="fa-ul">
+    <ul>
       <li>
-        <i class="fa-li fas fa-graduation-cap"></i>
         <strong>PhD in Physics, 2028 (expected)</strong><br>
         University of California, Santa Barbara
       </li>
       <li>
-        <i class="fa-li fas fa-graduation-cap"></i>
         <strong>M.A. in Astronomy, 2024</strong><br>
         University of Texas at Austin
       </li>
       <li>
-        <i class="fa-li fas fa-graduation-cap"></i>
         <strong>B.A. in Computer Science & Astronomy, 2022</strong><br>
         Smith College
       </li>
