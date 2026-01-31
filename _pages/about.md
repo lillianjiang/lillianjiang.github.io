@@ -55,6 +55,7 @@ I was born and raised in **Shanghai, China**. Outside of research, I enjoy spend
       <li>Circumplanetary disk evolution</li>
       <li>Machine learning applications in astronomy</li>
     </ul>
+    <p><em>Learn more about my research on the <a href="/research/">Research</a> page.</em></p>
   </div>
   
   <div class="col-md-6">
@@ -72,6 +73,28 @@ I was born and raised in **Shanghai, China**. Outside of research, I enjoy spend
         <strong>B.A. in Computer Science & Astronomy, 2022</strong><br>
         Smith College
       </li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<div class="row mt-5">
+  <div class="col-md-6">
+    <h2>Select Awards & Honors</h2>
+    <ul>
+      <li>Board of Visitors 2nd Year Defense Award, UT Austin Astronomy Dept (2024)</li>
+      <li>AAS 240 Chambliss Student Award Honorable Mention, Pasadena, CA (2022)</li>
+      <li>La Serena School of Data Science Full Scholarship, AURA Observatory, Chile (2021)</li>
+    </ul>
+  </div>
+  
+  <div class="col-md-6">
+    <h2>Select PI Observing Programs</h2>
+    <ul>
+      <li><strong>HST (WFC3):</strong> 60 orbits</li>
+      <li><strong>Keck Observatory (LRIS):</strong> 1 night</li>
+      <li><strong>Hobby-Eberly Telescope (LRS):</strong> 12 hours</li>
     </ul>
   </div>
 </div>
