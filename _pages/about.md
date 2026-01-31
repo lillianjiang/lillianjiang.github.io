@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Fourth-year PhD student in Physics at <a href='https://www.physics.ucsb.edu/'>UC Santa Barbara</a>
 
