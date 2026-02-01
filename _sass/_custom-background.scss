@@ -1,0 +1,14 @@
+// Custom background images for light and dark modes
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('/assets/img/background-light.jpg');
+}
+
+// Dark mode background
+html[data-theme="dark"] body {
+  background-image: url('/assets/img/background-dark.jpg');
+}
