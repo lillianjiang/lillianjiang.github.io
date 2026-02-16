@@ -74,6 +74,17 @@ nav_order: 2
 
 <div class="research-highlights">
 
+  <div class="research-item" style="border-bottom:none; padding-bottom:0; margin-bottom:50px;">
+    <div class="research-text" style="max-width: 900px; margin: 0 auto;">
+      <p>
+        A central theme of my research is to understand how giant planets and substellar companions assemble, accrete, and interact with their surrounding circumplanetary and circumstellar material. Accretion provides a direct, time-dependent probe of ongoing growth, while multiwavelength constraints on disks and dust place that growth in the broader context of disk evolution.
+      </p>
+      <p>
+        I focus on three connected questions: (1) when and how efficiently do young planets accrete, and how episodic is that process; (2) what circumplanetary environments accompany accretion, and how long does circumplanetary material persist; and (3) what do population-level constraints on accretion and demographics imply for formation pathways, especially at wide separations.
+      </p>
+    </div>
+  </div>
+
 
 <div class="research-item">
     <div class="research-header">

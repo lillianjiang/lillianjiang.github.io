@@ -27,11 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am **Lillian Yushu Jiang**, a fourth-year <a href="https://www.physics.ucsb.edu/people/lillian-yushu-jiang-0" target="_blank" rel="noopener noreferrer">PhD student</a> in Physics at UC Santa Barbara, working with <a href="https://web.physics.ucsb.edu/~bpbowler/" target="_blank" rel="noopener noreferrer">Brendan Bowler</a>. My research sits at the intersection of **observational astronomy** and **machine learning**, with a focus on the **formation and accretion of planetary-mass companions** and the late stages of planet formation at **wide orbital separations**. I use high-contrast imaging and multiwavelength data to study accretion variability and circumplanetary environments, and to connect these signatures to disk evolution across young systems. I lead observational programs using **HST** and **Keck** to measure accretion and variability in young clusters and substellar companions, including a <strong>60-orbit HST Cycle 33</strong> program (PI) and ongoing spectroscopy efforts with <strong>Keck/LRIS</strong> and <strong>HET</strong>. 
+Hi, I am **Lillian Yushu Jiang**, a fourth-year <a href="https://www.physics.ucsb.edu/people/lillian-yushu-jiang-0" target="_blank" rel="noopener noreferrer">PhD student</a> in Physics at UC Santa Barbara, working with <a href="https://web.physics.ucsb.edu/~bpbowler/" target="_blank" rel="noopener noreferrer">Brendan Bowler</a>. My research sits at the intersection of **observational astronomy** and **machine learning**, with a focus on the **formation and accretion of planetary-mass companions** and the late stages of planet formation at **wide orbital separations**. 
+
+I use high-contrast imaging and multiwavelength observations to study how stars and planets assemble, and to connect accretion to disk evolution in young systems. I have experience planning, designing and executing observing programs and reducing multiwavelength datasets from **ALMA** interferometry, **HST/JWST** space-based imaging and spectroscopy, and ground-based instruments with **Keck/NIRC2**, **Keck/LRIS**, and **SCExAO/CHARIS**. I lead observational programs using **HST** and **Keck** to measure accretion and variability in young clusters and substellar companions, including a <strong>60-orbit HST Cycle 33</strong> program (PI) and ongoing spectroscopy efforts with <strong>Keck/LRIS</strong> and <strong>HET</strong>. 
+
 
 Previously, I earned an <a href="https://astronomy.utexas.edu/" target="_blank" rel="noopener noreferrer">M.A. in Astronomy at UT Austin</a> and a dual B.A. in **Computer Science** and **Astronomy** from **Smith College**, where I completed a senior honors thesis on multiwavelength accretion diagnostics in young brown dwarfs with <a href="https://www.amherst.edu/people/facstaff/kfollette" target="_blank" rel="noopener noreferrer">Kate Follette</a> and <a href="https://kward-duong.space/" target="_blank" rel="noopener noreferrer">Kimberly Ward-Duong</a>. 
 
-**I am always open to collaboration!** If you are interested in working together or discussing potential research opportunities, please feel free to <a href="#" id="email-link">reach out to me via email</a>.
+
+I was born and raised in **Shanghai, China**. Outside of research, I enjoy spending time with my Miniature Australian Shepherd, **Bagel**, whether that is exploring the beach, going on hikes, or visiting local dog parks. I also have a passion for **computer music** and enjoy exploring the intersection of technology and creative expression through sound design and music production. 
+
+<!-- **I am always open to collaboration!** If you are interested in working together or discussing potential research opportunities, please feel free to <a href="#" id="email-link">reach out to me via email</a>.
 
 <script>
   // Obfuscate email to prevent spam
@@ -39,9 +45,7 @@ Previously, I earned an <a href="https://astronomy.utexas.edu/" target="_blank" 
   var domain = "ucsb.edu";
   var email = user + "@" + domain;
   document.getElementById("email-link").href = "mailto:" + email;
-</script>
-
-I was born and raised in **Shanghai, China**. Outside of research, I enjoy spending time with my Miniature Australian Shepherd, **Bagel**, whether that is exploring the beach, going on hikes, or visiting local dog parks. I also have a passion for **computer music** and enjoy exploring the intersection of technology and creative expression through sound design and music production.
+</script> -->
 
 ---
 
