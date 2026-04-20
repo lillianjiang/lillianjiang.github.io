@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+keywords: Lillian Jiang, Lillian Yushu Jiang, Lillian Jiang UCSB, Lillian Jiang exoplanet, Lillian Jiang astronomy, UCSB Physics, exoplanet formation, planetary-mass companions, accreting planets, high-contrast imaging
 subtitle: Fourth-year PhD student in Physics at <a href='https://www.physics.ucsb.edu/'>UC Santa Barbara</a>
 
 profile:
