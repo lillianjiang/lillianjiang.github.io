@@ -42,6 +42,12 @@ ninja.data = [{
           section: "News",},{id: "news-gave-a-talk-at-the-international-conference-on-exoplanets-and-planet-formation-in-my-hometown-shanghai-on-ab-aur-b-s-variability-and-presented-new-results-from-alma-observations-satellite",
           title: 'Gave a talk at the International Conference on Exoplanets and Planet Formation in...',
           description: "",
+          section: "News",},{id: "news-awarded-12-orbits-as-pi-for-hst-cycle-34-to-image-six-young-planetary-mass-companions-with-wfc3-uvis-telescope",
+          title: 'Awarded 12 orbits as PI for HST Cycle 34 to image six young...',
+          description: "",
+          section: "News",},{id: "news-my-first-author-paper-on-the-deep-hα-imaging-survey-of-ic-348-with-hst-is-accepted-to-the-astronomical-journal-tada",
+          title: 'My first-author paper on the deep Hα imaging survey of IC 348 with...',
+          description: "",
           section: "News",},{
         id: 'social-ads',
         title: 'Ads',
