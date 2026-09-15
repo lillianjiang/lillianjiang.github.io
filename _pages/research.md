@@ -105,7 +105,7 @@ nav_order: 2
                 I lead a multi-facility program that combines ground-based optical spectroscopy (Keck/LRIS, HET/LRS) with HST imaging to measure accretion in the planetary-mass regime. Over a three-year baseline, we target about 100 young planetary-mass objects to characterize accretion mechanisms, rates, and variability across the first 20 Myr of evolution. 
             </p>
             <p>    
-                A core component of this effort is my Cycle 33 HST program, which uses uniform UV and optical diagnostics to constrain the accretion evolution at planetary masses across benchmark young populations.
+                A core component of this effort is my HST program, which uses uniform UV and optical diagnostics to constrain the accretion evolution at planetary masses across benchmark young populations. This spans a 60-orbit Cycle 33 survey and a 12-orbit Cycle 34 program imaging six young planetary-mass companions with WFC3-UVIS.
             </p>
         </div>
     </div>
@@ -119,7 +119,7 @@ nav_order: 2
       <div class="research-image">
         <img src="/assets/img/research/ic348_members_on_plot.png" alt="IC 348 cluster research">
         <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">
-          Jiang et al. (in prep.; 2026 a)
+          Jiang et al. (2026), AJ, accepted
         </p>
       </div>
       <div class="research-text">
