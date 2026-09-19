@@ -117,9 +117,9 @@ nav_order: 2
     </div>
     <div class="research-content">
       <div class="research-image">
-        <img src="/assets/img/research/ic348_members_on_plot.png" alt="IC 348 cluster research">
+        <a href="https://arxiv.org/abs/2609.05620" target="_blank" rel="noopener noreferrer"><img src="/assets/img/research/ic348_members_on_plot.png" alt="IC 348 cluster research"></a>
         <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">
-          Jiang et al. (2026), AJ, accepted
+          <a href="https://arxiv.org/abs/2609.05620" target="_blank" rel="noopener noreferrer">Jiang et al. (2026), AJ, accepted &mdash; arXiv:2609.05620</a>
         </p>
       </div>
       <div class="research-text">
