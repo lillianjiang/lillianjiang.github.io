@@ -5,10 +5,10 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url('/assets/img/background-light.jpg');
+  background-image: url('/assets/img/background-light.jpg?v=20260918');
 }
 
 // Dark mode background
 html[data-theme="dark"] body {
-  background-image: url('/assets/img/background-dark.jpg');
+  background-image: url('/assets/img/background-dark.jpg?v=20260918');
 }
