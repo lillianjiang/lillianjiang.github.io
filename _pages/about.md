@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 keywords: Lillian Jiang, Lillian Yushu Jiang, Lillian Jiang UCSB, Lillian Jiang exoplanet, Lillian Jiang astronomy, UCSB Physics, exoplanet formation, planetary-mass companions, accreting planets, high-contrast imaging
-subtitle: Fourth-year PhD student in Physics at <a href='https://www.physics.ucsb.edu/'>UC Santa Barbara</a>
+subtitle: Fifth-year PhD student in Physics at <a href='https://www.physics.ucsb.edu/'>UC Santa Barbara</a>
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am **Lillian Yushu Jiang**, a fourth-year <a href="https://www.physics.ucsb.edu/people/lillian-yushu-jiang-0" target="_blank" rel="noopener noreferrer">PhD student</a> in Physics at UC Santa Barbara, working with <a href="https://web.physics.ucsb.edu/~bpbowler/" target="_blank" rel="noopener noreferrer">Brendan Bowler</a>. My research sits at the intersection of **observational astronomy** and **machine learning**, with a focus on the **formation and accretion of planetary-mass companions** and the late stages of planet formation at **wide orbital separations**. 
+Hi, I am **Lillian Yushu Jiang**, a fifth-year <a href="https://www.physics.ucsb.edu/people/lillian-yushu-jiang-0" target="_blank" rel="noopener noreferrer">PhD student</a> in Physics at UC Santa Barbara, working with <a href="https://web.physics.ucsb.edu/~bpbowler/" target="_blank" rel="noopener noreferrer">Brendan Bowler</a>. My research sits at the intersection of **observational astronomy** and **machine learning**, with a focus on the **formation and accretion of planetary-mass companions** and the late stages of planet formation at **wide orbital separations**. 
 
 I use high-contrast imaging and multiwavelength observations to study how stars and planets assemble, and to connect accretion to disk evolution in young systems. I have experience planning, designing and executing observing programs and reducing multiwavelength datasets from **ALMA** interferometry, **HST/JWST** space-based imaging and spectroscopy, and ground-based instruments with **Keck/NIRC2**, **Keck/LRIS**, and **SCExAO/CHARIS**. I lead observational programs using **HST** and **Keck** to measure accretion and variability in young clusters and substellar companions, including <strong>72 orbits of HST time as PI</strong> across Cycle 33 and Cycle 34, and ongoing spectroscopy efforts with <strong>Keck/LRIS</strong> and <strong>HET</strong>. 
 
